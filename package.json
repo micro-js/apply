@@ -1,0 +1,12 @@
+{
+  "name": "apply",
+  "description": "Faster than native Function.prototype.apply",
+  "repository": "git://github.com/micro-js/apply.git",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "2.x"
+  }
+}
