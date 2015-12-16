@@ -2,7 +2,7 @@
   "name": "@f/apply",
   "description": "Create a function that memoizes the result of a &#x60;fn&#x60;.",
   "repository": "git://github.com/micro-js/apply.git",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
