@@ -9,7 +9,7 @@
     "postversion": "git push && git push --tags && npm publish --access=public"
   },
   "dependencies": {
-    "@micro-js/slice": "^1.0.0"
+    "@f/slice": "^1.0.0"
   },
   "devDependencies": {
     "tape": "^4.2.2"
