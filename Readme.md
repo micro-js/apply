@@ -1,19 +1,23 @@
 
 # apply
 
+[![Build status][travis-image]][travis-url]
+[![Git tag][git-image]][git-url]
+[![NPM version][npm-image]][npm-url]
+[![Code style][standard-image]][standard-url]
+
 Faster apply than the native Function.prototype.apply
 
 ## Installation
 
-    $ npm install micro-js/apply
+    $ npm install @f/apply
 
-## Usage
+## API
 
-apply accepts three parameters:
+### .apply(fn, args)
 
   * `fn` - The function to invoke
   * `args` - The argument list as an array
-  * `ctx` - The context upon which to invoke `fn` (optional)
 
 ## Performance
 
@@ -21,10 +25,13 @@ Here's the [jsperf](http://jsperf.com/apply-vs-switch/7).  In Chrome, it's rough
 
 ## License
 
-The MIT License
+MIT
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+[travis-image]: https://img.shields.io/travis/micro-js/apply.svg?style=flat-square
+[travis-url]: https://travis-ci.org/micro-js/apply
+[git-image]: https://img.shields.io/github/tag/micro-js/apply.svg
+[git-url]: https://github.com/micro-js/apply
+[standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
+[standard-url]: https://github.com/feross/standard
+[npm-image]: https://img.shields.io/npm/v/@f/apply.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@f/apply

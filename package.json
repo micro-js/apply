@@ -1,12 +1,17 @@
 {
-  "name": "apply",
-  "description": "Faster than native Function.prototype.apply",
+  "name": "@f/apply",
+  "description": "Create a function that memoizes the result of a &#x60;fn&#x60;.",
   "repository": "git://github.com/micro-js/apply.git",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "lib/index.js",
-  "dependencies": {},
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {
+    "@micro-js/slice": "^1.0.0"
+  },
   "devDependencies": {
-    "mocha": "2.x"
+    "tape": "^4.2.2"
   }
 }
