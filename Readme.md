@@ -12,12 +12,26 @@ Faster apply than the native Function.prototype.apply
 
     $ npm install @f/apply
 
+## Usage
+
+```js
+var apply = require('@f/apply')
+
+apply(add, [1, 2]) // => 3
+
+function add (one, two) {
+  return one + two
+}
+```
+
 ## API
 
-### .apply(fn, args)
+### apply(fn, args)
 
   * `fn` - The function to invoke
   * `args` - The argument list as an array
+
+**Returns:** return of invoked `fn`
 
 ## Performance
 
